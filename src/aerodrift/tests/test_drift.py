@@ -2,7 +2,7 @@ import boto3
 import pytest
 from moto import mock_aws
 
-from aerodrift.drift import DriftDetector
+from aerodrift.drift import DriftDetector  
 from aerodrift.ingestion import CloudIngestor, seed_mock_environment, simulate_drift
 from aerodrift.topology import TopologyEngine
 
